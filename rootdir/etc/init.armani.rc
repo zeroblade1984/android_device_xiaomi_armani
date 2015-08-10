@@ -341,7 +341,7 @@ service mpdecision /system/bin/mpdecision --avg_comp
     group root system
     disabled
 
-service thermal-engine /system/bin/thermal-engine
+service thermal-engine /system/bin/thermal-engine -c /system/etc/thermal-engine-8226.conf
     class main
     user root
     group root

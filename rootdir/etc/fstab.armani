@@ -17,4 +17,7 @@
 /devices/msm_sdcc.2/mmc_host*                       auto           auto      defaults                                                     voldmanaged=sdcard1:auto,noemulatedsd
 /devices/platform/msm_hsusb_host/usb1               auto           auto      defaults                                                     voldmanaged=usbdisk:auto,noemulatedsd
 
-/dev/block/zram0                                    none           swap      defaults                                                     zramsize=214748366,swapprio=1000
+/dev/block/zram0                                    none           swap      defaults                                                     zramsize=107374183,swapprio=1000
+/dev/block/zram1                                    none           swap      defaults                                                     zramsize=107374183,swapprio=1000
+/dev/block/zram2                                    none           swap      defaults                                                     zramsize=107374183,swapprio=1000
+/dev/block/zram3                                    none           swap      defaults                                                     zramsize=107374183,swapprio=1000

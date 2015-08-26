@@ -90,10 +90,6 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
 
-# DOZE
-PRODUCT_PACKAGES += \
-    ArmaniDoze
-
 # Filesystem
 PRODUCT_PACKAGES += \
     make_ext4fs \

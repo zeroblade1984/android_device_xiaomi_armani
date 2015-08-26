@@ -236,11 +236,6 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOff">true</bool>
 
-     <!-- Doze mode -->
-    <integer name="config_screenBrightnessDoze">10</integer>
-    <bool name="config_dozeUseAccelerometer">true</bool>
-    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!-- Whether UI for multi user should be shown -->

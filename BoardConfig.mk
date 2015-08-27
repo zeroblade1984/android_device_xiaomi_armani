@@ -118,8 +118,9 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno305
 # Power
 TARGET_POWERHAL_VARIANT := qcom
 
-# QCOM hardware
+# Qualcomm Support
 BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_QC_TIME_SERVICES := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/xiaomi/armani/rootdir/etc/fstab.armani
@@ -132,9 +133,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += device/xiaomi/armani/sepolicy
-
-# Time services
-BOARD_USES_QC_TIME_SERVICES := true
 
 # Vold
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
